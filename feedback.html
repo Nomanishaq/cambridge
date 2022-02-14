@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <a class="navbar-brand" href="#"><img src="img/logo.png" width="180px"></a><br><br>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="department.html">Department</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="facility.html">Facility</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="center.html">Centers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="academic.html">Academic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vacancies.html">Vacancies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="query.html">Query</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="success-stories.html">Success Stories</a>
+              </li>
+            </ul>
+          </div>
+        </div><br><br>
+      </nav>
+
+      <!-- Slider -->
+      <div>
+        <div class="feed">
+            <h1 class="h01">Feedback</h1>
+       </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                
+              </div>
+          </div>
+      </div>
+    </div>
+    <br><br>
+    <h1 class="h02">Give Us Your Feedback</h1>
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              
+	
+	<br><br>
+	<p>1.How was our management treated you?</p><br>
+	<input type="radio" name="management">Excellent<br>
+	<input type="radio" name="management">Average<br>
+	<input type="radio" name="management">Poor<br>
+	<label class="error managementError"></label>
+	<br>	
+	<p>2.How was your experience with our lower staff?</p><br>
+	<input type="radio" name="experience">Excellent<br>
+	<input type="radio" name="experience">Average<br>
+	<input type="radio" name="experience">Poor<br>
+	<label class="error experienceError"></label>
+	<br>
+	<p>3.How was your experience with our experts physicians?</p><br>
+	<input type="radio" name="all">Excellent<br>
+	<input type="radio" name="all">Average<br>
+	<input type="radio" name="all">Poor<br>
+	<label class="error allError"></label>
+	<br>
+	<p>4.How was the time punctuality of our team?</p><br>
+	<input type="radio" name="new">Excellent<br>
+	<input type="radio" name="new">Average<br>
+	<input type="radio" name="new">Poor<br>
+	<label class="error newError"></label>
+	<br>
+	<p>5.How was our Nursing Care?</p><br>
+	<input type="radio" name="point">Excellent<br>
+	<input type="radio" name="point">Average<br>
+	<input type="radio" name="point">Poor<br>
+	<label class="error pointError"></label>
+	<br>
+	<p>6.How was our transpotaion service?</p><br>
+	<input type="radio" name="no">Excellent<br>
+	<input type="radio" name="no">Average<br>
+	<input type="radio" name="no">Poor<br>
+	<label class="error noError"></label>
+	<br>
+	<p>Comments</p><br>
+	<textarea id="comments" rows="8" cols="80" style="resize: none"></textarea>
+	<br/>
+	<label class="error commentsError"></label>
+	<br>
+	<input type="button" value="Submint" id="SUBMINT" onClick="check()" class="submit01">
+
+
+
+            </div>
+            <div class="col-md-6">
+                <img src="img/docterMadam.jpg" class="img001">
+            </div>
+        </div>
+    </div>
+    
+
+    <br><br>
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot-call">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-9">
+                <img src="img/phone.png" width="50px" style="margin-top: 20px;">
+                <h2 style="color: white; margin-left: 60px; margin-top: -45px;">EMERGENCY CALL: (123) 8888 99</h2>
+              </div>
+              <div class="col-md-3">
+                <button class="home-btn3">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="foot-detail">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4"><br>
+                <h3 class="text-center">About us</h3><br><br>
+                <span>Thereare aserttrmany variations of passages of Lorem Ipsum available, but jority haTher aswrta serttrmany variations of passages of Lorem available.aTher wrtof Lorem Ipsum available.</span>
+              </div>
+              <div class="col-md-4"><br>
+                <h3 class="text-center">Medical Guide</h3><br>
+                <ul style="margin-left: 110px;">
+                  <li>Home</li><hr class="foot-hr">
+                  <li>Services</li><hr class="foot-hr">
+                  <li>Department</li><hr class="foot-hr">
+                  <li>About us</li><hr class="foot-hr">
+                </ul>
+              </div>
+              <div class="col-md-4"><br>
+                <h3 class="text-center">Keep In Touch</h3>
+                <ul style="margin-left: 90px;">
+                  <li>Medical Ltd,Manhattan 1258,New York,USA Lahore</li>
+                  <li>(123) 00 8888 99</li>
+                  <li>info@example.com</li>
+                  <li>(123) 00 8888 99</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="foot-name">
+          <h5>Cambridge © All Rights Reserved 2022.</h5>
+        </div>
+      </footer>
+    
+</body>
+</html>
